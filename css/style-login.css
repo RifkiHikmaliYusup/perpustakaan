@@ -1,0 +1,171 @@
+/* Your existing CSS styles go here */
+
+/* Updated styles for horizontal layout */
+.form-group-wrap {
+  display: flex;
+  justify-content: space-between;
+}
+
+.logo-img {
+  width: 100px; /* Adjust the width as needed */
+  height: auto; /* Automatically adjust height to maintain aspect ratio */
+  border-radius: 10px; /* Apply border-radius to make the logo circular */
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2); /* Add a subtle shadow to the logo */
+  opacity: 0; /* Set initial opacity to 0 for the fade-in effect */
+}
+
+.form-group .input-group {
+  flex: 1;
+}
+
+.form-group .input100 {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+/* Updated styles for the background image */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: url('img/bg-perpus.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.limiter {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* New styles for the logo and form container */
+.logo-form-container {
+  display: flex;
+  align-items: center;
+}
+
+.logo-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+  opacity: 0;
+  margin-right: 30px; /* Adjust the spacing between the logo and form */
+}
+
+.container-login100 {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+.wrap-login100 {
+  width: 100%;
+  max-width: 800px; /* Increase the width to make the form wider */
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+}
+
+.wrap-login100 form .user-details{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-left: 20px 0 12px 0;
+}
+
+form .user-details .input-box{
+  margin-bottom: 15px;
+  width: calc(100% / 2 - 20px);
+}
+
+.user-details .input-box .details{
+  display: block;
+  font-weight: 500;
+  margin-bottom: 5px;
+}
+
+.user-details .input-box input{
+  height: 45px;
+  width: 100%;
+  outline: none;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  padding-left: 15px;
+  font-size: 16px;
+  border-bottom-width: 2px;
+  transition: all 0.3s ease;
+}
+
+.user-details .input-box input::focus,
+.user-details .input-box input::valid{
+  border-color: black;
+}
+
+.login100-form-title {
+  display: block;
+  font-size: 24px;
+  text-align: center;
+  color: #333;
+  margin-bottom: 30px;
+}
+
+.input100 {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 15px;
+}
+
+.input100:focus {
+  outline: none;
+  border-color: #17a2b8;
+}
+
+h5 {
+  margin: 10px 0;
+  color: #333;
+  flex: 0 0 150px; /* Set the width of the "Foto Profil" element */
+}
+
+.form-group-wrap {
+  display: flex;
+  align-items: flex-start;
+}
+
+.form-group-wrap .form-group {
+  flex: 1; /* Each form group takes equal width */
+  margin-right: 15px; /* Adjust the spacing between form groups */
+}
+
+.btn {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  color: #fff;
+  font-weight: bold;
+}
+
+.btn-danger {
+  background-color: #dc3545;
+}
+
+.btn-primary {
+  background-color: #007bff; /* Adjust the button color as needed */
+}
+
+/* You can add more styles as per your requirement */
